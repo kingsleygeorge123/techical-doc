@@ -1,0 +1,123 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width: 100%;
+    
+    }
+    html{
+        font-size: 62.5%;
+    }
+
+
+
+    h1{
+        font-size: 3rem;
+        padding-top: 6rem;
+        margin-bottom: 3rem;
+        font-family: sans-serif;
+        color: rgb(197, 27, 27);
+    }
+
+    h2{
+        font-size: 2.5rem;
+        font-family: sans-serif;
+        padding-top: 4rem;
+    }
+
+
+    p, li{
+        font-size: 2.2rem;
+        padding-top: 1.5rem;
+    
+    }
+
+    @media (max-width: 675px) {
+        p {
+        padding-top: 6rem;
+        }
+    }
+
+    #container{
+        display: flex;
+
+    }
+
+
+    #nav-link li{
+        list-style: none;
+        margin: -.3rem;
+    }
+
+    @media (max-width: 675px) {
+        #nav-link li {
+        margin: .7rem;
+        }
+    }
+
+    a { text-decoration: none;
+        font-size: 2.8rem;
+        font-weight: 900;
+        color: rgb(197, 27, 27);
+    }
+
+
+    #navbar{
+        margin-right: 4rem;
+        margin-left: 2rem;
+    position: fixed;
+    width: 25%;
+
+    }
+
+    @media (max-width: 675px) {
+        #navbar {
+        position: absolute;
+        flex-direction: column;
+        text-align: center;
+        width: 92%;
+        }
+    }
+
+    #main-doc{
+        padding-top: 8rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        padding-left: 30%;
+        background: rgb(202, 201, 194);
+    }
+
+    @media (max-width: 675px) {
+        #main-doc {
+        padding-left: 0%;
+        width: 90%;
+        padding-top: 600px;
+        text-align: center;
+        background: rgb(129, 196, 146);
+        }
+    }
+
+    #introduction{
+        font-size: 3.5rem;
+    }
+    @media (max-width: 675px) {
+        #introduction {
+        padding-top: 20rem;
+        }
+    }
+
+    #important_uses_of_wordPress,
+    #development_and_support,
+    #references
+    {
+        padding-bottom: 1.5rem;;
+    }
+
+    .reference-list{
+        padding-bottom: 6rem;
+    }
+    @media (max-width: 675px) {
+        .reference-list {
+        padding-bottom: 10rem;
+        }
+    }
